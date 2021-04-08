@@ -81,7 +81,7 @@ print(alfabet)
 alfabet = ["motor", "Mobil", "helikopter","pesawat"]
 alfabet.sort()
 print(alfabet)
-#nah untuk mengatasi kendala ini bisa kita masukkan keyword str.lower pada paramaeter
+#nah untuk mengatasi kendala ini bisa kita masukkan keyword (str.lower) pada paramaeter
 alfabet = ["motor", "Mobil", "helikopter","pesawat"]
 alfabet.sort(key=str.lower)
 print(alfabet)
